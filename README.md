@@ -2,6 +2,9 @@
 
 Linux Driver for USB HID Playstation Classic controller
 
+## Get Involved
+I'm new to USB HID linux drivers. If you are a Linux driver veteran, please fork, contribute, or help in any way.
+
 ## Dump stream
 
 ### `sudo usbhid-dump -a <bus>:<dev> -es`
