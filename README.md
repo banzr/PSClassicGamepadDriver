@@ -8,30 +8,30 @@ Linux Driver for USB HID Playstation Classic controller
 
 #### 2-byte buffer
 
-    ####       A    B     C    D
-
+         
+    Byte:      A    B     C    D
     Pressed:   1111 1111  0111 1101
     Unpressed: 0000 0000  1000 0010
 
 ### Button to bit mapping:
 
-Triangle: B1
-Circle: B2
-Cross: B3
-Square: B4
+    Triangle: B1
+    Circle: B2
+    Cross: B3
+    Square: B4
 
-Start: D1
-Select: D2
+    Start: D1
+    Select: D2
 
-L1: A3
-L2: A1
-R1: A4
-R2: A2
+    L1: A3
+    L2: A1
+    R1: A4
+    R2: A2
 
-Up: C1
-Down: C2
-Left: D3
-Right: D4
+    Up: C1
+    Down: C2
+    Left: D3
+    Right: D4
 
 
 ## Data So far...
