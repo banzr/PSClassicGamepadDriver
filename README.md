@@ -1,11 +1,15 @@
 # PSClassicGamepadDriver
+
 Linux Driver for USB HID Playstation Classic controller
 
 ## Dump stream
+
 ### sudo usbhid-dump -a <bus>:<dev> -es
 
 #### 2-byte buffer
+
 ####       A    B     C    D
+
 Pressed:   1111 1111  0111 1101
 Unpressed: 0000 0000  1000 0010
 
@@ -31,7 +35,9 @@ Right: D4
 
 
 ## Data So far...
+
 #### LSUSB Dump
+
 Bus <bus> Device <bus>: ID 054c:0cda Sony Corp. 
 Couldn't open device, some information will be missing
 Device Descriptor:
